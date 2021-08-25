@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color:var(--white-color);
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --primary-color:rgb(20, 87, 59);
+    --secondary-color:rgb(39, 39, 97);
+    --white-color: white;
+}
+
+/* navbar */
+nav{
+    background-color: var(--primary-color);
+    width:100%;
+    height:10%;
+}
+nav ul{
+    padding: 1.5rem;
+}
+nav ul li{
+    display: inline;
+    margin: 1rem 1rem;
+    list-style: none;
+}
+nav ul li a{
+    margin: 1rem 0;
+    text-decoration: none;
+}
+nav ul li a:active{
+    text-decoration: underline;
+}
+body{
+    background-color: var(--secondary-color);
+}
+/* index */
+.container{
+    text-align: center;
+}
+
+h1{
+    margin:2.5rem 0;
+    text-align: center;
+}
+input{
+    color:black;
+    padding: 0.5rem 1rem;
+}
+ .container .center{
+    width:60%;
+    display: block;
+    margin:auto;
+    margin-bottom: 2rem;
+} 
+
+
+/* quiz */
+.question-container{
+    width:60%;
+    margin:auto;
+    display: inline-block;
+    border:2px solid var(--primary-color);
+    padding:2.5rem 2.5rem; 
+    border-radius: 0.5rem;;
+}
+.quiz-container{
+    margin-bottom: 2rem;
+}
+
+
+/* hypotenuse Area */
+.formula{
+    width:60%;
+    display: inline-block;
+    border:2px solid var(--primary-color);
+    padding:0.8rem 2.5rem; 
+    margin-bottom:2rem;
+}
+
+
+
+/* button */
+button{
+    background-color: var(--primary-color);
+    border:none;
+    padding:0.8rem 1.5rem;
+    margin:2rem;
+    width:60%;
+}
+
+
+/* .container{
+    width:60%;
+    margin:auto;
+    text-align: center;
+}
+label{
+    display:block;
+} */
