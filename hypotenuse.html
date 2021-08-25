@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <ul>
-     <li><a href="index.html">Is Triangle</a></li>
-     <li><a href="quiz.html">quiz</a></li>
-     <li><a href="hypotenuse.html">hypotenuse</a></li>
-     <li><a href="areaoftriangle.html">Area of triangle</a></li>
+            <li><a href="index.html">Is Triangle?</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="hypotenuse.html">Hypotenuse</a></li>
+            <li><a href="areaoftriangle.html">Area</a></li>
         </ul>
     </nav>
-    <h1>Check Hypotenuse</h1>
-    <div class="formula">Length of Hypotenuse = sqrt(a² + b²)</div>
+    <div class="container">
+        <h1>Check Hypotenuse</h1>
+        <div class="formula">Length of Hypotenuse = sqrt(a² + b²)</div>
+        <br>
+        <label>a=</label>
+        <input type="number" class="input center">
 
-    <label>a=<input type="number" class="input"></label>
+        <label>b=</label>
+        <input type="number" class="input center">
 
-    <label>b=<input type="number" class="input"></label>
+        <button id="calculate-button">Calculate Hypotenuse</button>
 
-<button id="calculate-button">Calculate Hypotenuse</button>
-
-<h2 id="show-output"></h2>
+        <h2 id="show-output"></h2>
+    </div>
 
 </body>
 <script src="hypotenuse.js"></script>
+
 </html>
