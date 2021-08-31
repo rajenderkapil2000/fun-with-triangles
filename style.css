@@ -38,65 +38,41 @@ body{
 }
 /* index */
 .container{
-    text-align: center;
+    max-width:800px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    padding:1rem 2rem;
 }
 
 h1{
     margin:2.5rem 0;
     text-align: center;
+    padding:0.5rem;
 }
 input{
     color:black;
     padding: 0.5rem 1rem;
 }
  .container .center{
-    width:60%;
-    display: block;
-    margin:auto;
     margin-bottom: 2rem;
 } 
-
-
-/* quiz */
 .question-container{
-    width:60%;
-    margin:auto;
-    display: inline-block;
     border:2px solid var(--primary-color);
-    padding:2.5rem 2.5rem; 
+    padding:1.5rem; 
     border-radius: 0.5rem;;
 }
 .quiz-container{
     margin-bottom: 2rem;
 }
-
-
-/* hypotenuse Area */
 .formula{
-    width:60%;
-    display: inline-block;
+    text-align: center;
     border:2px solid var(--primary-color);
-    padding:0.8rem 2.5rem; 
+    padding:0.8rem 1rem; 
     margin-bottom:2rem;
 }
-
-
-
-/* button */
 button{
     background-color: var(--primary-color);
     border:none;
     padding:0.8rem 1.5rem;
-    margin:2rem;
-    width:60%;
 }
-
-
-/* .container{
-    width:60%;
-    margin:auto;
-    text-align: center;
-}
-label{
-    display:block;
-} */
